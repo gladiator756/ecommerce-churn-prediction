@@ -1,0 +1,26 @@
+# Kept out of the repository: coursework documents and the old copy of the dataset
+# (the dataset is included as data/E_Commerce_Dataset.xlsx)
+*.docx
+*.pptx
+/*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets and local config
+.env
+.env.*
+
+# Office lock files
+~$*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
